@@ -1,5 +1,8 @@
 #!/bin/sh
 
+set -e
+
+SPHINX_MODE=${SPHINX_MODE:-}
 
 if [[ ${SPHINX_MODE} == indexing ]]; then
  indexer --config ${SPHINX_CONF} --all --rotate
