@@ -1,7 +1,0 @@
-#!/bin/sh
-
-
-#exec indextool --config /etc/sphinx/sphinx.conf --check "test1"
-#indexer -c /etc/sphinx/sphinx.conf --all --rotate
-#exec searchd -c /etc/sphinx/sphinx.conf
-
